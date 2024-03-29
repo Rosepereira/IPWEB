@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+
+    <form action="http://191.252.62.149:8080/pweb/salvar.jsp" method="post">
+        
+        Login:<br/>
+        <input type="text" name="Login"></br>
+
+        Senha:<br/>
+        <input type="password" name="Senha"></br>
+
+        Confirme a Senha:<br/>
+        <input type="password" name="Confirme a Senha"></br>
+
+        Nome:<br/>
+        <input type="text" name="Nome"></br> 
+
+        Sexo:<br/>
+        <input type="radio" name="Sexo">Masculino</br>
+        <input type="radio" name="Sexo">Feminino</br>
+
+        Email:<br/>
+        <input type="email" name="Email"></br>
+        
+        Estado:<br/>
+        <select name="Estados" id="Estados">
+            <option value="Piauí">Piauí</option>
+            <option value="Maranhão">Maranhão</option>
+            <option value="Ceará">Ceará</option>
+            <option value="Paraíba">Paraíba</option>
+          </select>
+         
+          <br>
+
+          Observações:<br/>
+          <textarea id="Observações" name="Observações" rows="4" cols="50">
+           
+          </textarea>
+
+          <br>
+
+        Interesses:<br/>
+        <input type="checkbox" name="Interesses">Futebol</br> 
+        <input type="checkbox" name="Interesses">Política</br>
+        <input type="checkbox" name="Interesses">Economia</br> 
+        <input type="checkbox" name="Interesses">Carros</br>
+        <input type="checkbox" name="Interesses">Celebridades</br>
+
+        <br/>
+
+        <input type="submit" value="Enviar">
+        
+        
+    </form>
+
+</body>
+</html>
