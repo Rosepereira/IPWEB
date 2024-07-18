@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Fixar Header</title>
+    <style>
+        *margin{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 22px;
+        }
+        #cabeçalho{
+            height: 100px;
+            background-color: blue;
+            width: 93%;
+            margin: 0 auto;
+        }
+
+        #menu{
+            height: 100px;
+            background-color: pink;
+            width: 93%;
+            margin: 0 auto;
+        }
+
+        #principal{
+            height: 500px;
+            width: 300px;
+            background-color: yellow;
+            float: left;
+            margin-left: 57px;
+        }
+
+        #conteúdo{
+            height: 500px;
+            width: 900px;
+            background-color: greenyellow;
+            float: left;
+                
+        }
+
+        #lado{
+            height: 500px;
+            width: 300px;
+            background-color: rgb(187, 182, 255);
+            float: left;
+            
+        }
+
+        #rodapé{
+            height: 100px;
+            background-color: pink;
+            clear: both;
+            width: 93%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="cabeçalho">
+        Header
+    </div>
+
+    <div id="menu">
+        menu
+    </div>
+    
+    <div id="principal">
+        left
+    </div>
+   
+    <div id="conteúdo">
+        center
+    </div>
+
+    <div id="lado">
+        rigth
+    </div>
+
+    <div id="rodapé">
+        footer
+    </div>
+</body>
+</html>
