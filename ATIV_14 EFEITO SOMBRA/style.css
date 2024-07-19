@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+.Exemplo{
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 30px #888888;
+}
+
+.Exemplo1{
+    width: 150px;
+    height: 150px;
+    background-color:greenyellow;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 30px #888888;
+}
+
