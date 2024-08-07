@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Programação Web</title>
+    <meta charset="utf-8" />
+
+    <style type="text/css">
+        .box {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background: red;
+            animation-name: minhaAnimacao;
+            animation-duration: 10s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+            margin: auto;
+
+
+        }
+           
+        .box:hover{
+          border: solid 5px black;
+          transition: border 3s 2s;
+          transform: rotate(90deg);
+          transition: all 1s ease;
+        }
+       
+
+        @keyframes minhaAnimacao {
+            0% {top: 0px; left: 0px;background: red;}
+            25% {top: 0px; left: 100px;background: blue;}
+            50% {top: 100px; left: 100px;  background: yellow;}
+            75% {top: 100px; left: 0px; background: green;}
+            100% { top: 0px; left: 0px; background: red;}
+        }
+    </style>
+
+
+</head>
+
+
+
+<body>
+
+    <div class="box"></div>
+
+</body>
+
+
+
+</html>
